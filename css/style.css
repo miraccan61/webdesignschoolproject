@@ -1,0 +1,71 @@
+.navbar .navbar-brand img {
+    height: 20px;
+}
+
+.navbar .navbar-brand {
+    padding-top: 0;
+}
+
+.navbar .nav-link {
+    color: #444343 !important;
+}
+
+.navbar .button-collapse {
+    padding-top: 1px;
+}
+
+.card-intro .card-body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 0 !important;
+}
+
+.card-intro .card-body h1 {
+    margin-bottom: 0;
+}
+
+.card-intro {
+    margin-top: 64px;
+}
+
+@media (max-width: 450px) {
+    .card-intro {
+        margin-top: 56px;
+    }
+}
+
+@media (min-width: 1441px) {
+    .card-intro {
+        padding-left: 0 !important;
+    }
+}
+
+#icon{
+    text-shadow: rgb(39, 113, 179) 0px 0px 0px,
+                  rgb(43, 126, 198) 1px 1px 0px, rgb(48, 138, 217) 2px 2px 0px,
+                  rgb(52, 150, 236) 3px 3px 0px;
+                font-size: 20px;
+                color: rgb(235, 255, 247);
+                height: 64px;
+                width: 64px;
+                line-height: 64px;
+                border-radius: 40%;
+                text-align: center;
+                background-color: rgb(56, 162, 255);
+}
+
+
+.map-container-section {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+
+  .map-container-section iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
